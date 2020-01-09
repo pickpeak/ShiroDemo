@@ -21,5 +21,7 @@ public class ShiroApplication {
         System.out.println("myBean1 = " + myBean1.getMessage());
         MyBean myBean2 = (MyBean) context.getBean("&myBean");
         System.out.println("myBean2 = " + myBean2.getMessage());
+        System.out.println("testbranch");
+
     }
 }
